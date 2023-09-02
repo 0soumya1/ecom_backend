@@ -1,0 +1,9 @@
+always keep index.js clean
+
+api should be defined in api folder
+using> express.Router()
+
+in this way lots of APIs can be managed properly
+and are fetched in index.js via> app.use(require("./api/registerApi"));
+
+add vercel.json file for backend (it contains deployment info)
